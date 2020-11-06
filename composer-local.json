@@ -7,7 +7,7 @@
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-planet-5644"
 
 	},
-	"data_from": "international",
+	"data_from": "belgium",
 	"scripts": {
 		"core:language": "wp language core install nl_BE;",
 		"core:language2": "wp language core install fr_BE;",
