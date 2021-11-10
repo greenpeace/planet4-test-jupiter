@@ -3,35 +3,10 @@
 	"description": "Greenpeace P4 test-jupiter",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "7",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-master"
+		"greenpeace/planet4-master-theme": "dev-planet-6091",
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-planet-6091"
 	},
 	"data_from": "international",
 	"scripts": {},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-master-theme",
-				"type": "wordpress-theme",
-				"autoload": {
-					"psr-4": {
-						"P4\\MasterTheme\\": "src/"
-					}
-				},
-				"extra": {
-					"installer-paths": {
-						"vendor/plugins/{$name}/": [
-							"type:wordpress-plugin"
-						]
-					}
-				},
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/a4e18588462894e51b2edac2d8df7cdf15cff58b.zip"
-				}
-			}
-		}
-	]
+	"repositories": []
 }
