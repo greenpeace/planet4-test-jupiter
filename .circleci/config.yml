@@ -12,7 +12,7 @@ docker_auth: &docker_auth
 
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:latest
+    - image: greenpeaceinternational/p4-builder:update-to-helm-3
       auth:
         <<: *docker_auth
 
@@ -33,6 +33,7 @@ job_environments:
     HELM_RELEASE: planet4-test-jupiter
     WP_DB_NAME: planet4-testjupi_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-jupiter-stateless-develop
+    CHART_VERSION: 0.8.24-alpha3
 
 
 commands:
