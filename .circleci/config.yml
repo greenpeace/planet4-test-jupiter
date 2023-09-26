@@ -30,7 +30,6 @@ defaults: &defaults
     - image: greenpeaceinternational/p4-builder:php8.1
       auth:
         <<: *docker_auth
-  resource_class: large
 
 orbs:
   slack: circleci/slack@3.4.2
